@@ -4,7 +4,9 @@ function takeANumber(katzDeli , name){
   
   return "Welcome, " + name + ". You are number " + correctNumber + " in line.";
 }
-
+//["Andre" , "John"], "Joanne"
+//["Andre", "John", "Joanne"]
+//"Welcome Joanne. You are number 3 in line."
 function nowServing(katzDeliLine){
   if(katzDeliLine.length > 0){
     var serve = katzDeliLine.shift();
